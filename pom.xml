@@ -12,7 +12,7 @@
 	<groupId>br.com.fellipe</groupId>
 	<artifactId>tinnova</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>helpdesk-1</name>
+	<name>Tinnova</name>
 	<description>Sistema automotivo</description>
 	<properties>
 		<java.version>11</java.version>
