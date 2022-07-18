@@ -17,6 +17,7 @@ Especificação da Entidade Veiculo
     
 }
 
+
 ## Tecnologias utilizadas no Projeto:
 
   -  Java
@@ -35,16 +36,18 @@ Especificação da Entidade Veiculo
   {
   
   "ano": 2022,  
-  "created": "30/06/2022",  
   "descricao": "R$25.000",  
   "fornecedor": "ex.FORD",  
   "fornecedores": "FIAT",  
   "veiculo": "Fiesta",
   "venda": true  
 }
+*Campo venda e fornecedor são obrigatórios!
+Para fornecedor serão aceitos: FIAT, FORD,VOLKSWAGEN,CHEVROLET
 
   ###Exemplo PATCH
 
 {       "veiculo": "Celta, Cor: AMARELO",
         "fornecedor":"CHEVROLET"       
 }
+*Campo fornecedor é obrigatório e só serão aceitos apenas: FIAT, FORD,VOLKSWAGEN,CHEVROLET.
