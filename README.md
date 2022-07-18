@@ -42,6 +42,7 @@ Especificação da Entidade Veiculo
   "veiculo": "Fiesta",
   "venda": true  
 }
+
 *Campo venda e fornecedor são obrigatórios!
 Para fornecedor serão aceitos: FIAT, FORD,VOLKSWAGEN,CHEVROLET
 
@@ -50,4 +51,5 @@ Para fornecedor serão aceitos: FIAT, FORD,VOLKSWAGEN,CHEVROLET
 {       "veiculo": "Celta, Cor: AMARELO",
         "fornecedor":"CHEVROLET"       
 }
+
 *Campo fornecedor é obrigatório e só serão aceitos apenas: FIAT, FORD,VOLKSWAGEN,CHEVROLET.
