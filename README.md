@@ -1,5 +1,4 @@
 # Projeto API JSON RESTfull Veículos TINNOVA
-
 Desafio de uma aplicação de um cadastro de veículo finalizado para o processo seletivo Tinnova.
 
 Entidade Veículo como especificado abaixo:
@@ -41,6 +40,11 @@ Especificação da Entidade Veiculo
   "fornecedor": "ex.FORD",  
   "fornecedores": "FIAT",  
   "veiculo": "Fiesta",
-   "venda": true
-  
+  "venda": true  
+}
+
+  ###Exemplo PATCH
+
+{       "veiculo": "Celta, Cor: AMARELO",
+        "fornecedor":"CHEVROLET"       
 }
